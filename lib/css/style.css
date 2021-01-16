@@ -1,0 +1,112 @@
+/* General Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html {
+    font-size: 20px;
+} */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    color: #333333;
+    overflow-x: hidden;
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.text-primary {
+    color: #3693ff;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #333;
+    color: #fff;
+    padding: 1.5rem 8rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 3px solid #3693ff;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar h2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    transition: background-color 1s;
+}
+
+#navbar li a:hover {
+    background-color: #3693ff;
+}
+
+/* Showcase Area */
+#showcase {
+    background: url(../img/desktop2.jfif) no-repeat center center/cover;
+    height: 87.3vh;
+}
+
+.showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 81px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+}
+
+.showcase-content h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.showcase-content .btn {
+    font-size: 1.5rem;
+    padding: 1rem 10rem;
+    transition: background-color 1s;
+}
+
+.showcase-content .btn:hover {
+    background: #3693ff;
+    color: #ffffff;
+}
+
+.btn {
+    color: #3693ff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid #dfd9d9;
+    border-radius: 10px;
+}
