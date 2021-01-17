@@ -27,6 +27,11 @@ body {
     color: #3693ff;
 }
 
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
 /* Navbar */
 #navbar {
     display: flex;
@@ -109,4 +114,89 @@ body {
     padding: 1rem 2rem;
     border: 1px solid #dfd9d9;
     border-radius: 10px;
+}
+
+/* Section about */
+#about {
+    padding: 5rem;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+#about h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about p.lead {
+    margin-bottom: 1rem;
+}
+
+#about .about-content {
+    display: flex;
+}
+
+#about .about-text,
+#about .about-image {
+    flex: 1;
+}
+
+#about .about-text {
+    text-align: justify;
+}
+
+#about .about-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: 3%;
+    width: 65%;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+/* Section: Projects */
+#projects {
+    padding: 5rem 0;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+#projects h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+#projects .boxes {
+    display: flex;
+    margin: 2rem 0;
+}
+
+#projects .box {
+    background: #fff;
+    flex: 1;
+    padding: 3rem;
+    margin: 0 3rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #8d8888;
+    font-size: 1rem;
+}
+
+#projects .box i {
+    color: #fff;
+    padding: 1rem;
+    background: #3693ff;
+    border-radius: 50%;
+    margin: 3rem 1rem;
+    margin-bottom: 2rem;
 }
