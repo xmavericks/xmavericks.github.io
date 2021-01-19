@@ -7,7 +7,7 @@
 }
 
 /* html {
-    font-size: 20px;
+    scroll-behavior: smooth;
 } */
 
 body {
@@ -30,6 +30,11 @@ body {
 .bg-light {
     background: #f4f4f4;
     color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #fff;
 }
 
 /* Navbar */
@@ -197,6 +202,165 @@ body {
     padding: 1rem;
     background: #3693ff;
     border-radius: 50%;
+    margin: 2rem 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Section: Work Experience */
+
+#experiences {
+    padding: 5rem 0;
+    background-color: #cef7f7;
+}
+
+#experiences h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+    /* margin: 2rem 2rem; */
+}
+
+#experiences h3 {
+    text-align: top;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+#experiences h4 {
+    text-align: top;
+    margin-bottom: 0.35rem;
+    font-size: 1rem;
+}
+
+#experiences .boxes {
+    display: flex;
+    margin: 2rem 0;
+    box-align: center;
+}
+
+#experiences .box {
+    background: #ffffff;
+    flex: 1;
+    padding: 3rem;
+    margin: 0 3rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #8d8888;
+    font-size: 0.75rem;
+}
+
+experiences .box img{
+    background: #ffffff;
+    flex: 1;
+    padding: 3rem;
+    margin-top: 0;
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #8d8888;
+    font-size: 1rem;
+}
+
+#experiences .box i {
+    color: #fff;
+    padding: 1rem;
+    background: #3693ff;
+    border-radius: 50%;
     margin: 3rem 1rem;
     margin-bottom: 2rem;
+}
+
+/* Section: Contact */
+
+#contact {
+    padding: 5rem 0;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+#contact h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 3rem 0;
+    margin-top: 2rem;
+}
+
+#contact .form-box {
+    background: #fff;
+    padding: 3rem;
+    box-shadow: 2px 2px 5px #d1d1d1;
+    border-radius: 10px;
+}
+
+#contact .form-group {
+    margin-bottom: 1rem;
+}
+
+#contact .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1rem;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1rem;
+    padding: 1rem;
+    border: 0.5px solid #333;
+    border-radius: 5px;
+}
+
+#contact .form-group textarea {
+    font-family: Arial, sans-serif;
+}
+
+#contact .contact-btn {
+    width: 80%;
+    margin-left: 10%;
+    display: inline-block;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #3693ff;
+    color: #fff;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#contact .contact-btn:hover {
+    background: #0378ff;
+}
+
+#contact .form-container {
+    position: relative;
+}
+
+#contact .mail-icon {
+    font-size: 3rem;
+    background: #3693ff;
+    color: #fff;
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -7%;
+    left: 45%;
+}
+
+/* Footer */
+footer {
+    padding: 1.8rem;
+}
+
+footer p {
+    text-align: center;
 }
