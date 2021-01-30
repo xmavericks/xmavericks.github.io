@@ -1,3 +1,5 @@
 # xmavericks.github.io
 
-This is for practice purpose and the completed project is my web portfolio
+I have hosted this personal portfolio using github.
+
+I have created this portfolio using HTML, CSS and JavaScipt
