@@ -361,6 +361,7 @@ footer {
   background: #343434;
   color: #F7FFF7;
   text-align: center;
+  margin: 1rem;
 }
 .contact-list {
   list-style-type: none;
@@ -372,4 +373,5 @@ footer {
   padding: 15px;
   color: #FFF;
   display: inline-block;
+  margin: 1rem;
 }
