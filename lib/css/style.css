@@ -358,9 +358,18 @@ experiences .box img{
 
 /* Footer */
 footer {
-    padding: 1.8rem;
+  background: #343434;
+  color: #F7FFF7;
+  text-align: center;
 }
-
-footer p {
-    text-align: center;
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.contact-list a {
+  padding: 15px;
+  color: #FFF;
+  display: inline-block;
 }
