@@ -249,7 +249,7 @@ body {
     font-size: 0.75rem;
 }
 
-experiences .box img{
+#experiences .box img{
     background: #ffffff;
     flex: 1;
     padding: 3rem;
