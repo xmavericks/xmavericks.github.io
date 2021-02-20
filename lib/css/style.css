@@ -292,7 +292,7 @@ experiences .box img{
 
 #certification .boxes {
     display: flex;
-    margin: 2rem 0;
+    margin: 0.5rem 0;
     box-align: center;
 }
 
