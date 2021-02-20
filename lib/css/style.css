@@ -269,6 +269,52 @@ experiences .box img{
     margin-bottom: 2rem;
 }
 
+/* Section: Certification */
+
+#certification {
+    padding: 5rem 0;
+    background-color: #cef7f7;
+}
+
+#certification h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+}
+
+#certification h3 {
+    text-align: top;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+	
+}
+
+#certification .boxes {
+    display: flex;
+    margin: 2rem 0;
+    box-align: center;
+}
+
+#certification .box {
+    background: #ffffff;
+    flex: 1;
+    padding: 3rem;
+    margin: 0.2rem 3rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #8d8888;
+    font-size: 0.75rem;
+}
+
+#certification .box i {
+    color: #fff;
+    padding: 1rem;
+    background: #3693ff;
+    border-radius: 50%;
+    margin: 3rem 1rem;
+    margin-bottom: 2rem;
+}
+
 /* Section: Contact */
 
 #contact {
